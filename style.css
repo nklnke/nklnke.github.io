@@ -19,7 +19,8 @@
 }
 
 .tags {
-  
+  display: flex;
+  justify-content: center;
 }
 
 .works {
@@ -28,21 +29,18 @@
 
 .work1 {
   border: 1px dotted black;
-  margin: 0 10px 30px 10px;
+  margin: 0 10px 20px 10px;
   min-height: 200px;
 }
 
 .image,
 .description {
-  display: inline-block;
   float: left;
 }
 
 @media screen and (min-width: 800px) {
-  .flex,
   .header,
   .menu,
-  .tags,
   .works {
     display: flex;
     justify-content: center;
