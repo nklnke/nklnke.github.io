@@ -25,7 +25,7 @@ body *::selection {
 }
 
 .header {
-  min-height: 100px;
+  min-height: 86px;
   align-items: center;
   flex: 1;
   border: 1px solid green;
@@ -34,11 +34,12 @@ body *::selection {
 .photo {
   border: 1px solid red;
   float: left;
+  margin-left: 50px;
 }
 
 .about-me {
   border: 1px solid blue;
-  line-height: .5;
+  line-height: 1;
 }
 
 .about-me p:first-child { font-size: 24px; font-weight: bold; color: #FF6B6B; }
@@ -54,14 +55,15 @@ body *::selection {
 }
 
 .menu a {
-  margin-right: 50px;
+  margin-right: 10px;
+  line-height: 1.5;
   color: #011627;
   text-decoration: none;
   border-bottom: 3px solid #4ECDC4;
 }
 
 .menu a:hover { border-bottom: 3px solid #FF6B6B; }
-.menu a:last-child { margin-right: 10px; }
+.menu a:last-child { margin-right: 0; }
 
 .bio {
   font-size: 20px;
@@ -86,7 +88,7 @@ body *::selection {
 }
 
 .tags a:hover { color: #011627; border-bottom: 1px solid #4ECDC4; }
-.tags a:last-child { margin-right: 0;}
+/* .tags a:last-child { margin-right: 0;} */
 
 .works {
   
@@ -110,8 +112,8 @@ body *::selection {
     justify-content: space-around;
   }
 
-  .menu { display: flex; }
-
+  .menu { display: flex; margin-right: 50px; }
+  
   .work1 {
     width: 200px;
     height: 200px;
@@ -120,6 +122,10 @@ body *::selection {
   .image, .description {
     display: block;
     float: none;
+  }
+
+  .menu a {
+    margin-right: 50px;
   }
 }
 
