@@ -1,27 +1,79 @@
-.content {
+body {
+  background-color: #efefef;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
   max-width: 1300px;
   margin: auto;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  background-color: #fff;
 }
 
 .header {
   min-height: 100px;
+  align-items: center;
+  flex: 1;
+  border: 1px solid green;
 }
 
-.logo {
-  flex: 1;
-  border: 2px solid red;
+.photo {
+  border: 1px solid red;
+  float: left;
 }
+
+.about-me {
+  border: 1px solid blue;
+  line-height: .5;
+}
+
+.about-me p:first-child { font-size: 24px; font-weight: bold; color: #FF6B6B; }
+.about-me p:last-child { font-size: 20px; font-weight: normal; color: #4ECDC4; }
 
 .menu {
   flex: 2;
-  border: 2px solid green;
   justify-content: flex-end;
+  border: 1px solid yellow;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
-.tags {
-  display: flex;
-  justify-content: center;
+.menu a {
+  margin-right: 50px;
+  color: #011627;
+  text-decoration: none;
+  border-bottom: 3px solid #4ECDC4;
 }
+
+.menu a:hover { border-bottom: 3px solid #FF6B6B; }
+.menu a:last-child { margin-right: 10px; }
+
+.bio {
+  font-size: 20px;
+  color: #011627;
+  line-height: 1.5;
+  padding: 5px 50px;
+}
+
+.bio span { font-size: 16px; color: #8E8E8E; }
+
+.tags {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tags a {
+  margin-right: 50px;
+  color: #8E8E8E;
+  text-decoration: none;
+}
+
+.tags a:hover { color: #011627; border-bottom: 1px solid #4ECDC4; }
+.tags a:last-child { margin-right: 0;}
 
 .works {
   
@@ -40,11 +92,12 @@
 
 @media screen and (min-width: 800px) {
   .header,
-  .menu,
   .works {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
+
+  .menu { display: flex; }
 
   .work1 {
     width: 200px;
@@ -55,4 +108,10 @@
     display: block;
     float: none;
   }
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
