@@ -1,0 +1,43 @@
+.flex {
+  display: block;
+}
+
+.content {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.header {
+  min-height: 100px;
+}
+
+.logo {
+  flex: 1;
+  border: 2px solid red;
+}
+
+.menu {
+  flex: 2;
+  border: 2px solid green;
+  justify-content: flex-end;
+}
+
+.tags {
+  justify-content: center;
+}
+
+.works {
+  justify-content: space-around;
+}
+
+.work1 {
+  border: 1px dotted black;
+  min-width: 225px;
+  min-height: 225px;
+}
+
+@media screen and (min-width: 800px) {
+  .flex {
+    display: flex;
+  }
+}
