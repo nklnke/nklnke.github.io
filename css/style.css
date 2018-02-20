@@ -3,6 +3,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+body *::-moz-selection {
+  background: #4ECDC4;
+  color: #FDFFFC;
+}
+body *::-webkit-selection {
+  background: #4ECDC4;
+  color: #FDFFFC;
+}
+body *::selection {
+  background: #4ECDC4;
+  color: #FDFFFC;
+}
+
 .container {
   max-width: 1300px;
   margin: auto;
