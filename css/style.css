@@ -22,7 +22,7 @@ body *::selection {
   background-color: #fff;
 }
 
-.about-me { line-height: 1; }
+.about-me { line-height: 1; text-align: center; }
 
 .about-me span:first-child { font-size: 24px; font-weight: bold; color: #FF6B6B; }
 .about-me span:last-child { font-size: 20px; font-weight: normal; color: #4ECDC4; }
@@ -86,4 +86,5 @@ body *::selection {
 
 @media screen and (min-width: 975px) {
   .work1 p { font-size: 16px; }
+  .about-me { text-align: left; }
 }
