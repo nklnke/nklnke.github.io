@@ -17,23 +17,9 @@ body *::selection {
 }
 
 .container {
-  max-width: 1300px;
-  margin: auto;
-  padding-top: 15px;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
   background-color: #fff;
-}
-
-.header {
-  min-height: 86px;
-  align-items: center;
-  flex: 1;
-}
-
-.photo {
-  float: left;
-  margin-left: 50px;
 }
 
 .about-me {
@@ -44,9 +30,6 @@ body *::selection {
 .about-me span:last-child { font-size: 20px; font-weight: normal; color: #4ECDC4; }
 
 .menu {
-  flex: 2;
-  justify-content: flex-end;
-  text-align: center;
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -66,15 +49,11 @@ body *::selection {
   font-size: 20px;
   color: #011627;
   line-height: 1.5;
-  padding: 5px 50px;
 }
 
 .bio span { font-size: 16px; color: #8E8E8E; }
 
 .tags {
-  display: block;
-  margin-bottom: 30px;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -92,20 +71,12 @@ body *::selection {
 }
 
 .work1 {
-  border: 1px dotted black;
-  margin: 0 10px 30px 10px;
-  min-height: 225px;
-  min-width: 225px;
+
 }
 
-.work1 img { height: 225px; }
 .work1 p:first-child { font-weight: bold; }
 .work1 p:last-child { color: #8E8E8E; font-size: 14px; }
-
-.work1 p {
-  margin: 30px 10px;
-  font-size: 36px;
-}
+.work1 p { font-size: 36px; }
 
 .image {
   float: left;
@@ -113,46 +84,8 @@ body *::selection {
 }
 
 .description {
-}
 
-@media screen and (min-width: 975px) {
-  .header,
-  .works {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .menu { display: flex; margin-right: 50px; }
-  
-  .work1 {
-    width: 200px;
-    height: 200px;
-  }
-
-  .image, .description {
-    display: block;
-    float: none;
-  }
-
-  .menu a {
-    margin-right: 50px;
-  }
-
-  .work1 {
-    margin: 0 10px 125px 10px;
-  }
-
-  .work1 p { margin: 5px 0; font-size: 16px; }
-}
-
-.footer {
-  padding: 0 30px 30px 30px;
 }
 
 .footer span { font-weight: bold; color: #FF6B6B; }
 
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
-}
