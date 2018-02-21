@@ -91,10 +91,6 @@ body *::selection {
 .work1 p:last-child { color: #8E8E8E; font-size: 14px; }
 .work1 p {  }
 
-.image {
-  float: left;
-}
-
 .description {
 
 }

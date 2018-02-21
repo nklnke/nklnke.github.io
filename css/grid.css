@@ -40,6 +40,10 @@
   margin: 0 10px 30px 10px;
 }
 
+.image {
+  float: left;
+}
+
 .image img { height: 100px; }
 .work1 p { margin-left: 125px; }
 
@@ -65,8 +69,8 @@
   .tags { width: 70%; margin-left: auto; margin-right: auto; }
 
   .work1 {
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
   }
 
   .image, .description {
@@ -80,10 +84,7 @@
     margin-right: 50px;
   }
 
-  .work1 {
-    margin: 0 10px 125px 10px;
-  }
-
+  .work1 { margin: 0 10px 125px 10px; }
   .work1 p { margin: 5px 0; }
 
 }
