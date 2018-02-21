@@ -22,9 +22,7 @@ body *::selection {
   background-color: #fff;
 }
 
-.about-me {
-  line-height: 1;
-}
+.about-me { line-height: 1; }
 
 .about-me span:first-child { font-size: 24px; font-weight: bold; color: #FF6B6B; }
 .about-me span:last-child { font-size: 20px; font-weight: normal; color: #4ECDC4; }
@@ -46,25 +44,21 @@ body *::selection {
 .menu a:last-child { margin-right: 0; }
 
 .bio {
-  font-size: 20px;
+  font-size: 18px;
   color: #011627;
   line-height: 1.5;
 }
 
 .bio span { font-size: 16px; color: #8E8E8E; }
 
-.tags {
-  text-transform: uppercase;
-}
-
 .tags a {
-  margin-right: 50px;
+  text-transform: lowercase;
+  font-size: 14px;
   color: #8E8E8E;
   text-decoration: none;
 }
 
 .tags a:hover { color: #011627; border-bottom: 1px solid #4ECDC4; }
-/* .tags a:last-child { margin-right: 0;} */
 
 .works {
   
@@ -76,11 +70,10 @@ body *::selection {
 
 .work1 p:first-child { font-weight: bold; }
 .work1 p:last-child { color: #8E8E8E; font-size: 14px; }
-.work1 p { font-size: 36px; }
+.work1 p {  }
 
 .image {
   float: left;
-  width: 250px;
 }
 
 .description {
@@ -89,3 +82,8 @@ body *::selection {
 
 .footer span { font-weight: bold; color: #FF6B6B; }
 
+
+
+@media screen and (min-width: 975px) {
+  .work1 p { font-size: 16px; }
+}
