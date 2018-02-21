@@ -95,13 +95,26 @@ body *::selection {
 
 }
 
-.footer span { font-weight: bold; color: #f00; }
+.footer {
+  height: 100px;
+  background: url(../img/footer-bg.png) no-repeat;
+  background-position: right bottom;
+}
+
+.footer span {
+  font-weight: bold;
+  color: #f00;
+  background-color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
 
 .footer a {
   margin-left: 5px;
   text-decoration: none;
   border-bottom: 1px solid #011627;
   color: #011627;
+  background-color: #fff;
 }
 
 .footer a:hover {
