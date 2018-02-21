@@ -50,6 +50,7 @@
 
 
 @media screen and (min-width: 975px) {
+
   .header,
   .works {
     display: flex;
@@ -61,6 +62,7 @@
   .photo { margin-left: 50px; }
   .bio { padding: 5px 50px; }
   .about-me { margin-bottom: 0; }
+  .tags { width: 70%; margin-left: auto; margin-right: auto; }
 
   .work1 {
     width: 200px;
@@ -83,6 +85,7 @@
   }
 
   .work1 p { margin: 5px 0; }
+
 }
 
 
