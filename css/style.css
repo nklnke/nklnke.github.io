@@ -18,6 +18,8 @@ body *::selection {
 }
 
 .container {
+  background: url(../img/top-bg.png) repeat-x;
+  background-position: top;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
   background-color: #fff;
@@ -25,6 +27,8 @@ body *::selection {
   -moz-box-shadow: 0px 0px 30px 0px rgba(150,150,150,0.35);
   box-shadow: 0px 0px 30px 0px rgba(150,150,150,0.35);
 }
+
+.header { margin-top: 10px; }
 
 .about-me { line-height: 1.5; text-align: center; }
 
@@ -68,7 +72,13 @@ body *::selection {
   color: #011627;
 }
 
-.bio span { font-size: 16px; color: #8E8E8E; }
+/* .bio p { background-color: #fff; } */
+.bio span { font-size: 16px; color: #8E8E8E; background-color: #fff; }
+
+/* .bio {
+  background: url(../img/wrap.png) no-repeat;
+  background-position: top center;
+} */
 
 .tags a {
   text-transform: lowercase;
