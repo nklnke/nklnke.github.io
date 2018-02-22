@@ -72,7 +72,10 @@ body *::selection {
   color: #011627;
 }
 
-.bio span { font-size: 16px; color: #8E8E8E; }
+.bio span {
+  font-size: 14px;
+  color: #8e8e8e;
+}
 
 .tags a {
   text-transform: lowercase;
@@ -87,13 +90,13 @@ body *::selection {
   
 }
 
-.work1 {
+.works-block {
 
 }
 
-.work1 p:first-child { font-weight: bold; }
-.work1 p:last-child { color: #8E8E8E; font-size: 14px; }
-.work1 p { }
+.works-block p:first-child { font-weight: bold; }
+.works-block p:last-child { color: #8E8E8E; font-size: 14px; }
+.works-block p { }
 
 .description {
 
@@ -126,14 +129,16 @@ body *::selection {
 
 
 
-@media screen and (min-width: 975px) {
+@media screen and (min-width: 700px) {
 
-  .work1 p { font-size: 16px; }
+  .works-block p { font-size: 16px; }
   .about-me { text-align: left; }
 
-  .about-me span:first-child,
+  /*.about-me span:first-child,
   .about-me span:last-child {
     padding-left: 10px;
-  }
+  }*/
+
+  .photo { padding-right: 10px; }
 
 }
