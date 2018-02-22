@@ -59,6 +59,7 @@ body *::selection {
   text-decoration: none;
   border-bottom: 3px solid #0043f7;
   padding: 5px 5px 0;
+  transition: .2s ease;
 }
 
 .menu a:hover {
@@ -95,12 +96,16 @@ body *::selection {
 .works-block:last-child { border: 1px dashed #000; }
 .works-block p:first-child { font-weight: bold; }
 .works-block p:last-child { color: #8e8e8e; font-size: 14px; }
-.works-block p {  }
+.works-block p { transition: .2s ease; }
 
-.description a,
-.description a:visited {
+.works-block a,
+.works-block a:visited {
   color: #011627;
   text-decoration: none;
+}
+
+.works-block a:hover {
+
 }
 
 .footer {
