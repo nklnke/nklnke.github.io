@@ -86,11 +86,3 @@
   .works-block p { margin: 5px 0; }
 
 }
-
-
-
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
-}

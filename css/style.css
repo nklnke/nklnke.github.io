@@ -8,10 +8,12 @@ body *::-moz-selection {
   background: #0043f7;
   color: #fdfffc;
 }
+
 body *::-webkit-selection {
   background: #0043f7;
   color: #fdfffc;
 }
+
 body *::selection {
   background: #0043f7;
   color: #fdfffc;
@@ -38,6 +40,7 @@ body *::selection {
   color: #f00;
 
 }
+
 .about-me span:last-child {
   font-size: 20px;
   font-weight: normal;
@@ -100,8 +103,6 @@ body *::selection {
   text-decoration: none;
 }
 
-.description a p:first-child { /*text-decoration: underline;*/ }
-
 .footer {
   height: 100px;
   background: url(../img/footer-bg.png) no-repeat;
@@ -123,9 +124,7 @@ body *::selection {
   background-color: #fff; 
 }
 
-.footer a:hover {
-  color: #0043f7;
-}
+.footer a:hover { color: #0043f7; }
 
 
 
