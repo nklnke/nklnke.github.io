@@ -27,19 +27,22 @@
 
 .bio {
   padding: 5px 15px;
+  margin-bottom: 20px;
 }
 
 .tags {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .works-block {
-  border: 1px dotted black;
   margin: 0 10px 30px 10px;
   min-height: 150px;
 }
+
+.works-block:last-child { margin-bottom: 200px; }
 
 .image {
   float: left;
@@ -82,11 +85,9 @@
 
   .image img { height: 225px; }
 
-  .menu a {
-    margin-right: 50px;
-  }
+  .menu a { margin-right: 50px; }
 
-  .works-block { margin: 0 20px 125px; }
+  .works-block { margin: 0 20px 135px; }
   .works-block p { margin: 5px 0; }
 
 }
