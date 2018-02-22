@@ -55,7 +55,7 @@ body *::selection {
   color: #011627;
   text-decoration: none;
   border-bottom: 3px solid #0043f7;
-  padding: 5px 5px 0 5px;
+  padding: 5px 5px 0;
 }
 
 .menu a:hover {
@@ -72,13 +72,7 @@ body *::selection {
   color: #011627;
 }
 
-/* .bio p { background-color: #fff; } */
-.bio span { font-size: 16px; color: #8E8E8E; background-color: #fff; }
-
-/* .bio {
-  background: url(../img/wrap.png) no-repeat;
-  background-position: top center;
-} */
+.bio span { font-size: 16px; color: #8E8E8E; }
 
 .tags a {
   text-transform: lowercase;
@@ -99,7 +93,7 @@ body *::selection {
 
 .work1 p:first-child { font-weight: bold; }
 .work1 p:last-child { color: #8E8E8E; font-size: 14px; }
-.work1 p {  }
+.work1 p { }
 
 .description {
 

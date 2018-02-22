@@ -38,14 +38,15 @@
 .work1 {
   border: 1px dotted black;
   margin: 0 10px 30px 10px;
+  min-height: 150px;
 }
 
 .image {
   float: left;
 }
 
-.image img { height: 100px; }
-.work1 p { margin-left: 125px; }
+.image img { height: 150px; }
+.work1 p { margin: 10px 0 0 160px; }
 
 .footer {
   padding: 0 30px 30px 30px;
