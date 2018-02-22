@@ -27,14 +27,14 @@
 
 .bio {
   padding: 5px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .works-block {
@@ -43,17 +43,12 @@
 }
 
 .works-block:last-child { margin-bottom: 200px; }
-
-.image {
-  float: left;
-}
-
-.image img { height: 150px; }
 .works-block p { margin: 10px 0 0 160px; }
 
-.footer {
-  padding: 0 30px 30px 30px;
-}
+.image { float: left; }
+.image img { height: 150px; }
+
+.footer { padding: 0 30px 30px 30px; }
 
 
 
