@@ -57,7 +57,7 @@
   .header,
   .works {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly; /* TODO: vs space-around */
   }
 
   .works { flex-wrap: wrap; }
