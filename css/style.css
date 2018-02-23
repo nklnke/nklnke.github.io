@@ -20,8 +20,8 @@ body *::selection {
 }
 
 .container {
-  background: url(../img/top-bg.png) repeat-x;
-  background-position: top;
+  background: url(../img/top-bg.png) no-repeat;
+  background-position: top center;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
   background-color: #fff;
@@ -103,12 +103,16 @@ body *::selection {
   text-decoration: none;
 }
 
-.works-block a:hover {  }
+.works-block:hover {
+  position: relative;
+  top: -3px;
+  opacity: .85;
+}
 
 .footer {
   height: 100px;
   background: url(../img/footer-bg.png) no-repeat;
-  background-position: right bottom;
+  background-position: center bottom;
 }
 
 .heading {

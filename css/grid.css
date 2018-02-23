@@ -12,9 +12,9 @@
   flex: 1;
 }
 
-.photo {
-  /*float: left;
-  margin-left: 50px;*/
+.photo img {
+  width: 86px;
+  height: 86px;
 }
 
 .about-me { margin-bottom: 15px; }
