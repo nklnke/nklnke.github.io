@@ -31,14 +31,13 @@ body *::selection {
 }
 
 .header { margin-top: 10px; }
-
 .about-me { line-height: 1.5; text-align: center; }
+.about-me a { text-decoration: none; }
 
 .about-me span:first-child {
   font-size: 24px;
   font-weight: bold;
   color: #f00;
-
 }
 
 .about-me span:last-child {
@@ -104,9 +103,7 @@ body *::selection {
   text-decoration: none;
 }
 
-.works-block a:hover {
-
-}
+.works-block a:hover {  }
 
 .footer {
   height: 100px;
@@ -114,12 +111,12 @@ body *::selection {
   background-position: right bottom;
 }
 
-.footer span {
+.heading {
   font-weight: bold;
   color: #f00;
-  background-color: #fff;
   display: block;
   margin-bottom: 5px;
+  padding: 10px;
 }
 
 .footer a {
