@@ -109,6 +109,11 @@ body *::selection {
   opacity: .85;
 }
 
+.works-block:last-child:hover {
+  top: 0;
+  opacity: 1;
+}
+
 .footer {
   height: 100px;
   background: url(../img/footer-bg.png) no-repeat;
