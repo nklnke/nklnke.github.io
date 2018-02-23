@@ -107,6 +107,7 @@ body *::selection {
   position: relative;
   top: -3px;
   opacity: .85;
+  transition: .2s;
 }
 
 .works-block:last-child:hover {
