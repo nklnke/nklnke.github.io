@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/normalize.min.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/modals.css" />
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
 	</head>
@@ -40,7 +41,7 @@
 					<a href="#">Works</a>
 					<a href="#">About</a>
 					<a href="#">Blog</a>
-					<a href="#">Contacts</a>
+					<a href="#ex1" rel="modal:open">Contacts</a>
 				</div>
 				
 			</div>
@@ -169,7 +170,38 @@
 
 		</div>
 		<!-- .container end -->
+
+		<!-- modal shiet start -->
+		<div id="ex1" class="modal works">
+
+			<div class="contacts">
+				<p>Для связи воспользуйтесь одним из аккаунтов:</p>
+				<a href="#">vk</a>
+				<a href="#">mail</a>
+				<a href="#">github</a>
+				<a href="#">telegram</a>
+				<a href="#">skype</a>
+				<a href="#">whatsapp</a>
+			</div>
+
+			<div class="message-me">
+				<p>Or just write me</p>
+				<form>
+					<div>
+						<label for="user-email">Your e-mail:</label>
+						<input type="email" id="user-email" name="user-email">
+					</div>
+					<div><label for="content">Your message:</label></div>
+					<div><textarea id="content" name="content"></textarea></div>
+					<div><input class="submit" type="submit" value="Send"></div>
+				</form>
+			</div>
+
+		</div>
+		<!-- modal shiet end -->
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 		<script src="js/ph-animate.js"></script>
 	</body>
 </html>
