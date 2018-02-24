@@ -42,13 +42,21 @@
   min-height: 150px;
 }
 
-.works-block:last-child { margin-bottom: 200px; }
+.works-block:last-child { margin-bottom: 50px; }
 .works-block p { margin: 10px 0 0 160px; }
 
 .image { float: left; }
 .image img { height: 150px; }
 
 .footer { padding: 0 30px 30px 30px; }
+
+
+/*---------------------
+  contacts page styles
+  --------------------*/
+
+.contacts { justify-content: flex-start; }
+.message-me {  }
 
 
 
@@ -83,6 +91,7 @@
   .menu a { margin-right: 50px; }
 
   .works-block { margin: 0 20px 135px; }
+  .works-block:last-child { margin-bottom: 200px; }
   .works-block p { margin: 5px 0; }
 
 }
