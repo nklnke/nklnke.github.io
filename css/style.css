@@ -116,7 +116,6 @@ body *::selection {
 }
 
 .footer {
-  height: 100px;
   background: url(../img/footer-bg.png) no-repeat;
   background-position: center bottom;
 }
@@ -124,21 +123,24 @@ body *::selection {
 .heading {
   font-weight: bold;
   color: #f00;
+  background-color: #fff;
   display: block;
-  margin-bottom: 5px;
   padding: 10px;
 }
 
 .footer a,
 .contacts a {
-  margin-left: 5px;
+  font-size: 18px;
   text-decoration: underline;
   color: #011627;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 .footer a:hover,
-.contacts a:hover { color: #0043f7; }
+.contacts a:hover {
+  background-color: #0043f7;
+  color: #fff;
+}
 
 
 /*---------------------
