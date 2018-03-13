@@ -169,6 +169,32 @@ input.submit:hover {
   cursor: pointer;
 }
 
+/*--------------------------
+  to the stars button styles
+  ------------------------*/
+
+#to-the-stars {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+}
+ 
+ #to-the-stars a {
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+ 
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 100px solid #0043F7;
+ }
+ 
+ #triangle:hover { border-bottom: 100px solid #f00; }
+
 
 
 @media screen and (min-width: 700px) {
