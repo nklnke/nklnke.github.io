@@ -90,7 +90,7 @@ body *::selection {
 
 .tags a:hover { color: #011627; }
 
-.works {  }
+.works {}
 
 .works-block:last-child { border: 1px dashed #000; }
 .works-block p:first-child { font-weight: bold; }
@@ -154,7 +154,7 @@ textarea {
   height: 150px;
   background: #fff;
   margin: 10px 0;
-  }
+}
 
 input.submit {
   background: #0043f7;
@@ -178,20 +178,20 @@ input.submit:hover {
   bottom: 30px;
   right: 0;
 }
- 
- #to-the-stars a {
+
+#to-the-stars a {
   -webkit-transition: .3s;
   -moz-transition: .3s;
   transition: .3s;
 }
- 
+
 #triangle {
   border-left: 50px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 100px solid #0043F7;
- }
- 
- #triangle:hover { border-bottom: 75px solid #f00; }
+}
+
+#triangle:hover { border-bottom: 75px solid #f00; }
 
 
 
