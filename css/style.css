@@ -176,7 +176,7 @@ input.submit:hover {
 #to-the-stars {
   position: fixed;
   bottom: 30px;
-  left: 0;
+  right: 0;
 }
  
  #to-the-stars a {
@@ -186,14 +186,12 @@ input.submit:hover {
 }
  
 #triangle {
-  width: 0;
-  height: 0;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 100px solid transparent;
   border-bottom: 100px solid #0043F7;
  }
  
- #triangle:hover { border-bottom: 100px solid #f00; }
+ #triangle:hover { border-bottom: 75px solid #f00; }
 
 
 
