@@ -17,8 +17,6 @@
   height: 86px;
 }
 
-/*.about-me { margin-bottom: 15px; }*/
-
 .menu {
   flex: 2;
   justify-content: flex-end;
@@ -93,7 +91,8 @@
     height: 225px;
   }
 
-  .image, .description {
+  .image,
+  .description {
     display: block;
     float: none;
   }
