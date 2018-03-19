@@ -125,7 +125,7 @@ body *::selection {
   color: #f00;
   background-color: #fff;
   display: block;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .footer a,
@@ -176,7 +176,7 @@ input.submit:hover {
 #to-the-stars {
   position: fixed;
   bottom: 30px;
-  right: 0;
+  right: -20px;
 }
 
 #to-the-stars a {
@@ -187,8 +187,8 @@ input.submit:hover {
 }
 
 #triangle {
-  border-left: 50px solid transparent;
-  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  border-right: 50px solid transparent;
   border-bottom: 100px solid #0043F7;
 }
 
