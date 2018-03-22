@@ -90,8 +90,6 @@ body *::selection {
 
 .tags a:hover { color: #011627; }
 
-.works {}
-
 .works-block:last-child { border: 1px dashed #000; }
 .works-block p:first-child { font-weight: bold; }
 .works-block p:last-child { color: #8e8e8e; font-size: 14px; }
