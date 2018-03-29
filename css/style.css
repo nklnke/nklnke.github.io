@@ -112,7 +112,6 @@ body *::selection { background: #0043f7; color: #fdfffc; }
   color: #f00;
   background-color: #fff;
   display: block;
-  padding: 0 10px;
 }
 
 .footer a,

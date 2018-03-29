@@ -40,7 +40,7 @@
   min-height: 150px;
 }
 
-.works-block:last-child { margin-bottom: 50px; }
+.works-block:last-child { margin-bottom: 75px; }
 .works-block p { margin: 10px 0 0 160px; }
 
 .image { float: left; }
@@ -59,6 +59,8 @@
   margin-left: 5px;
   padding: 5px;
 }
+
+.heading { padding: 10px; }
 
 /*---------------------
   contacts page styles
@@ -103,8 +105,8 @@
 
   .menu a { margin-right: 50px; }
 
-  .works-block { margin: 0 20px 145px; }
-  .works-block:last-child { margin-bottom: 200px; }
+  .works-block { margin: 10px 20px 145px; }
+  .works-block:last-child { margin-bottom: 100px; }
   .works-block p { margin: 5px 0; }
   
   .footer { justify-content: flex-start; }
