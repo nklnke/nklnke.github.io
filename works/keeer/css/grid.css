@@ -1,0 +1,196 @@
+.top-ragged { margin: 15px 0 0; height: 40px; }
+.bottom-ragged { margin: 0 0 15px; height: 102px; }
+
+.content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.logo {
+  flex: 1;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.header-descr {
+  flex: 1;
+  min-width: 350px;
+  padding: 0;
+  text-align: center;
+}
+
+.header-descr p { margin: 0; }
+.header-descr a { padding-right: 8px; }
+.header-descr a:last-child { padding-right: 0; }
+
+.menu {
+  width: 80%;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.menu a { padding: 10px; }
+
+.beer-slider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.beer-slider a {
+  border: 0 solid #fff;
+  border-radius: 50px;
+}
+
+.beer-slide {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px 25px 0;
+  height: 230px;
+}
+
+.slider-link-beer:hover img,
+.slider-link-food:hover img {
+  position: relative;
+  top: -5px;
+}
+
+.slider-link-beer:hover img { height: 200px; }
+
+.food-slider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.food-slide {
+  flex:1;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px 25px 0;
+}
+
+.beer-slide span,
+.food-slide span {
+  display: block;
+}
+
+.content-descr { padding: 10px 70px; }
+
+.keeer-video {
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+.keeer-video img { max-width: 80%; }
+.keeer-video iframe { max-width: 26%; }
+
+.contacts-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 20px 40px;
+  width: 80%;
+  margin: auto;
+}
+
+.map {
+  margin: 0 30px 0 20px;
+}
+
+.map,
+.contacts {
+  flex: 1;
+  text-align: center;
+}
+
+.year-tm-block {
+  margin: 10px;
+  width: 80%;
+  margin: 20px auto auto;
+}
+
+.year-tm-block img {
+  float: right;
+  vertical-align: middle;
+  padding: 5px 0;
+  margin: 10px 0;
+}
+
+.year-tm-block p { float: left; }
+
+
+
+/*----------------
+  beer page styles
+  ----------------*/
+
+.beer-block {
+  display: flex;
+  justify-content: center;
+}
+
+.beer-img {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.beer-descr { flex: 2; }
+
+.beer-descr p:first-child { margin: 10px 0 0; }
+.beer-descr p { margin: 0 0 20px; }
+
+
+
+@media screen and (min-width: 940px) {
+
+  .content { width: 940px; }
+
+  .header {
+    width: 740px;
+    margin: auto;
+  }
+
+  .logo { text-align: left; }
+  .header-descr { text-align: left; }
+  
+  .menu { width: 740px; }
+
+  .beer-slider {
+    width: 840px;
+    margin: auto;
+  }
+
+  .food-slider {
+    width: 840px;
+    margin: auto;
+  }
+
+  .beer-block {
+    width: 640px;
+    margin: auto;
+  }
+
+  .map,
+  .contacts { text-align: left; }
+
+}
