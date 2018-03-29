@@ -1,23 +1,12 @@
 body {
-  background: url(../img/bg.png) repeat #efefef;
+  background: url(../img/bg.png) repeat #fff;
   background-position: center;
   font-family: 'Inconsolata', monospace;
 }
 
-body *::-moz-selection {
-  background: #0043f7;
-  color: #fdfffc;
-}
-
-body *::-webkit-selection {
-  background: #0043f7;
-  color: #fdfffc;
-}
-
-body *::selection {
-  background: #0043f7;
-  color: #fdfffc;
-}
+body *::-moz-selection { background: #0043f7; color: #fdfffc; }
+body *::-webkit-selection { background: #0043f7; color: #fdfffc; }
+body *::selection { background: #0043f7; color: #fdfffc; }
 
 .container {
   background: url(../img/top-bg.png) no-repeat;
@@ -92,8 +81,8 @@ body *::selection {
 
 .works-block:last-child { border: 1px dashed #000; }
 .works-block p:first-child { font-weight: bold; }
+.works-block p:nth-child(2) { font-style: italic; }
 .works-block p:last-child { color: #8e8e8e; font-size: 14px; }
-.works-block p { transition: .2s ease; }
 
 .works-block a,
 .works-block a:visited {
