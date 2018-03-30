@@ -122,6 +122,9 @@
   text-align: center;
 }
 
+
+.contacts p { margin-top: 20px; }
+
 .year-tm-block {
   margin: 10px;
   width: 80%;
@@ -192,5 +195,7 @@
 
   .map,
   .contacts { text-align: left; }
+
+  .contacts p { margin-top: 0; }
 
 }
