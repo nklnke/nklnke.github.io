@@ -101,6 +101,7 @@
   .image img {
     width: 225px;
     height: 250px;
+    border-radius: 5px;
   }
 
   .menu a { margin-right: 50px; }
