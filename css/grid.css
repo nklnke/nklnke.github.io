@@ -62,7 +62,8 @@
 
 .heading { padding: 10px; }
 
-/*---------------------
+
+/*--------------------
   contacts page styles
   --------------------*/
 
@@ -70,6 +71,9 @@
 .message-me {}
 
 
+/*-------
+   media
+  -------*/
 
 @media screen and (min-width: 700px) {
 

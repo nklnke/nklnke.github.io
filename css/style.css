@@ -11,8 +11,6 @@ body *::selection { background: #0043f7; color: #fdfffc; }
 .container {
   background: url(../img/top-bg.png) no-repeat;
   background-position: top center;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(150,150,150,0.35);
   -moz-box-shadow: 0px 0px 30px 0px rgba(150,150,150,0.35);
@@ -129,7 +127,7 @@ body *::selection { background: #0043f7; color: #fdfffc; }
 }
 
 
-/*---------------------
+/*--------------------
   contacts page styles
   --------------------*/
 
@@ -155,9 +153,10 @@ input.submit:hover {
   cursor: pointer;
 }
 
+
 /*--------------------------
   to the stars button styles
-  ------------------------*/
+  --------------------------*/
 
 #to-the-stars {
   position: fixed;
@@ -181,6 +180,9 @@ input.submit:hover {
 #triangle:hover { border-bottom: 75px solid #f00; }
 
 
+/*-------
+   mediaz
+  -------*/
 
 @media screen and (min-width: 700px) {
 
