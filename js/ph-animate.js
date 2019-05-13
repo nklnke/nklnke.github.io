@@ -1,15 +1,11 @@
 $(document).ready(function() {
-
-  $('img.animated').hover(
-
+  $("img.animated").hover(
     function() {
-      $(this).addClass('rubberBand');
+      $(this).addClass("rubberBand");
     },
 
     function() {
-      $(this).removeClass('rubberBand');
+      $(this).removeClass("rubberBand");
     }
-    
-  )
-
-})
+  );
+});
