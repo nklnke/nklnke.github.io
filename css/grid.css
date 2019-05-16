@@ -1,4 +1,6 @@
-.flex { display: flex; }
+.flex {
+  display: flex;
+}
 
 .container {
   max-width: 1300px;
@@ -40,11 +42,19 @@
   min-height: 150px;
 }
 
-.works-block:last-child { margin-bottom: 75px; }
-.works-block p { margin: 10px 0 0 160px; }
+.works-block:last-child {
+  margin-bottom: 75px;
+}
+.works-block p {
+  margin: 10px 0 0 160px;
+}
 
-.image { float: left; }
-.image img { height: 150px; }
+.image {
+  float: left;
+}
+.image img {
+  height: 150px;
+}
 
 .footer {
   height: 100px;
@@ -60,15 +70,28 @@
   padding: 5px;
 }
 
-.heading { padding: 10px; }
-
+.heading {
+  padding: 10px;
+}
 
 /*--------------------
   contacts page styles
   --------------------*/
 
-.contacts { justify-content: flex-start; }
-.message-me {}
+.contacts {
+  justify-content: flex-start;
+}
+.message-me {
+}
+
+.twitter {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
 
 /*-------
@@ -76,20 +99,36 @@
   -------*/
 
 @media screen and (min-width: 700px) {
-
   .header,
   .works {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .works { flex-wrap: wrap; }
-  .header { flex-direction: row; }
-  .menu { display: flex; margin-right: 50px; }
-  .photo { margin-left: 50px; }
-  .bio { padding: 5px 50px; }
-  .about-me { margin-bottom: 0; }
-  .tags { width: 70%; margin-left: auto; margin-right: auto; }
+  .works {
+    flex-wrap: wrap;
+  }
+  .header {
+    flex-direction: row;
+  }
+  .menu {
+    display: flex;
+    margin-right: 50px;
+  }
+  .photo {
+    margin-left: 50px;
+  }
+  .bio {
+    padding: 5px 50px;
+  }
+  .about-me {
+    margin-bottom: 0;
+  }
+  .tags {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .works-block {
     width: 225px;
@@ -108,12 +147,22 @@
     border-radius: 5px;
   }
 
-  .menu a { margin-right: 50px; }
+  .menu a {
+    margin-right: 50px;
+  }
 
-  .works-block { margin: 10px 20px 145px; }
-  .works-block:last-child { margin-bottom: 100px; }
-  .works-block p { margin: 5px 0; }
-  
-  .footer { justify-content: flex-start; }
+  .works-block {
+    margin: 10px 20px 145px;
+  }
+  .works-block:last-child {
+    margin-bottom: 100px;
+  }
+  .works-block p {
+    margin: 5px 0;
+  }
 
+  .footer {
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
 }
