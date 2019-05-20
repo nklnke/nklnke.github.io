@@ -12,9 +12,11 @@ body *::selection { background: #f00; color: #fff; }
   background: url(../img/top-bg.png) no-repeat;
   background-position: top center;
   background-color: #fff;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(150,150,150,0.35);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(150,150,150,0.35);
-  box-shadow: 0px 0px 30px 0px rgba(150,150,150,0.35);
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(150,150,150,0.5);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(150,150,150,0.5);
+  box-shadow: 0px 0px 50px 0px rgba(150,150,150,0.5);
+  border: none;
+  border-right: 1px solid #000;
 }
 
 .header { margin-top: 10px; }
@@ -60,6 +62,8 @@ body *::selection { background: #f00; color: #fff; }
 .bio {
   font-size: 18px;
   color: #011627;
+  background: rgba(0, 67, 247, .1);
+  margin: 40px 0;
 }
 
 .bio span {
@@ -100,6 +104,11 @@ body *::selection { background: #f00; color: #fff; }
 .works-block:last-child:hover {
   top: 0;
   opacity: 1;
+}
+
+.twitter {
+  background: rgba(0, 67, 247, .1);
+  padding: 40px 0;
 }
 
 .footer {
@@ -160,6 +169,11 @@ body *::selection { background: #f00; color: #fff; }
   -------*/
 
 @media screen and (min-width: 700px) {
+
+  .container {
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+  }
 
   .works-block p { font-size: 16px; }
   .about-me { text-align: left; }
