@@ -1,15 +1,21 @@
-* { transition: .2s; }
-
 body {
   background: #000 url(../img/wood-texture.jpg) no-repeat center fixed;
   background-size: cover;
   font-family: 'Times New Roman', Times, serif;
 }
 
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+  transition: .2s;
+}
 
-.top-ragged { background: url(../img/top-ragged.png) no-repeat center; }
-.bottom-ragged { background: url(../img/bottom-ragged.png) no-repeat center; }
+.top-ragged {
+  background: url(../img/top-ragged.png) no-repeat center;
+}
+
+.bottom-ragged {
+  background: url(../img/bottom-ragged.png) no-repeat center;
+}
 
 .content {
   background: #fff;
@@ -23,18 +29,30 @@ a { text-decoration: none; }
   font-size: 14px;
 }
 
-.header-descr a { color: #a1a1a1; }
-.header-descr a:hover { text-decoration: underline; }
+.header-descr a {
+  color: #a1a1a1;
+}
 
-.logo p { line-height: .9; }
-.logo span { color: #000; }
+.header-descr a:hover {
+  text-decoration: underline;
+}
+
+.logo p {
+  line-height: .9;
+}
+
+.logo span {
+  color: #000;
+}
 
 .logo span:first-child {
   font-size: 80px;
   font-weight: bold;
 }
 
-.logo span:last-child { font-size: 20px; }
+.logo span:last-child {
+  font-size: 20px;
+}
 
 .menu {
   border-top: 1px solid #a1a1a1;
@@ -47,14 +65,19 @@ a { text-decoration: none; }
   color: #000;
 }
 
-.menu a:hover { color: white; background: #a1a1a1; }
+.menu a:hover {
+  color: white;
+  background: #a1a1a1;
+}
 
 .beer-slide span,
 .food-slide span {
   color: #000;
 }
 
-.food-slider { border-bottom: 1px solid #a1a1a1; }
+.food-slider {
+  border-bottom: 1px solid #a1a1a1;
+}
 
 .beer-slide span:nth-child(2),
 .food-slide span:nth-child(2) {
@@ -69,29 +92,40 @@ a { text-decoration: none; }
   text-transform: lowercase;
 }
 
-.slider-link-beer:hover { background: url(../img/fire.gif) no-repeat center center; }
-.slider-link-food:hover { background: url(../img/fire.gif) no-repeat top center; }
+.slider-link-beer:hover {
+  background: url(../img/fire.gif) no-repeat center center;
+}
+
+.slider-link-food:hover {
+  background: url(../img/fire.gif) no-repeat top center;
+}
 
 .content-descr {
   font-size: 18px;
   text-indent: 1em;
 }
 
-.contacts { font-size: 18px; }
+.contacts {
+  font-size: 18px;
+}
 
 .contacts a {
   text-decoration: underline;
   color: #000;
 }
 
-.contacts a:hover { color: #a1a1a1; }
+.contacts a:hover {
+  color: #a1a1a1;
+}
 
 .year-tm-block {
   border-top: 1px solid #a1a1a1;
   font-size: 18px;
 }
 
-.year-tm-block img:hover { -webkit-filter: hue-rotate(220deg); }
+.year-tm-block img:hover {
+  -webkit-filter: hue-rotate(220deg);
+}
 
 
 
@@ -99,7 +133,9 @@ a { text-decoration: none; }
   beer page styles
   ----------------*/
 
-.beer-img:hover { opacity: .85; }
+.beer-img:hover {
+  opacity: .85;
+}
 
 .beer-descr p:first-child {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
