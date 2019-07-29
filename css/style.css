@@ -71,7 +71,9 @@ body *::selection { background: #f00; color: #fff; }
   color: #8e8e8e;
 }
 
-.tags a {
+.tags button {
+  border: none;
+  background-color: #fff;
   text-transform: lowercase;
   font-size: 14px;
   color: #8e8e8e;
@@ -79,7 +81,7 @@ body *::selection { background: #f00; color: #fff; }
   padding: 10px;
 }
 
-.tags a:hover { color: #011627; }
+.tags button:hover { color: #011627; cursor: pointer; }
 
 .works-block { transition: .2s; }
 .works-block:last-child { border: 1px dashed #000; }
