@@ -1,0 +1,102 @@
+/*   
+Theme Name: gctheme
+Theme URI: gotcomics.ru
+Description: Wordpress theme for comics shop named GotComics & placed in Ekaterinburg, Russia.
+Author: nklnke
+Author URI: nklnke.github.io
+*/
+
+a,
+span,
+img { transition: .15s; }
+
+:root {
+  --color-black: #07161e;
+  --color-red: #ff5d30;
+  --color-orange: #ff992d;
+  --color-yellow: #efb03b;
+  --color-gray: #9E9E9E;
+  --color-green: #00e04d;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  background: url(../img/gc-icons.png) center top repeat;
+  color: var(--color-black);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.light { background: var(--color-yellow); }
+.dark { background: var(--color-orange); }
+
+.light,
+.dark { color: #fff; }
+
+.accent-link {
+  font-size: 18px;
+  display: block;
+}
+
+.bold { font-weight: bold; }
+
+.container {
+  -webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,.35);
+  -moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,.35);
+  box-shadow: 0px 0px 100px 0px rgba(0,0,0,.35);
+  background: #fff;
+}
+
+.logo a:hover { -webkit-filter: hue-rotate(90deg); }
+
+.breadcrumbs { border-bottom: 1px solid #D5D5D5; }
+
+.breadcrumbs,
+.pagination { color: var(--color-gray); }
+
+.breadcrumbs-active {
+  color: #fff !important;
+  background-color: var(--color-orange);
+}
+
+.sidebar-menu a:hover { background-color: var(--color-red); }
+
+.breadcrumbs a,
+.pagination a { color: #95989A; }
+
+.breadcrumbs a:hover,
+.pagination a:hover { color: #747880; }
+
+.first-sidebar-item {
+  color: #fff;
+  font-weight: bold;
+}
+
+.product p { line-height: 1.35; }
+
+.product img,
+.product-page img { border: 1px solid #D5D5D5 }
+
+.product:hover img,
+.product-page img:hover { -webkit-filter: saturate(150%); }
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-orange);
+}
+
+.product p { color: #3E3E3E; }
+
+.addtocart { background-color: var(--color-yellow); }
+.addtocart:hover { background-color: var(--color-red); }
+.addtocart:active { background-color: var(--color-green); }
+  
+.header span a:hover,
+.header p:hover,
+footer a:hover { text-decoration: underline; }
