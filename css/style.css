@@ -72,7 +72,7 @@ body *::selection { background: #f00; color: #fff; }
 }
 
 .bio span:nth-child(2) {
-  font-size: 10px;
+  font-size: 11px;
   color: #bbb;
 }
 
