@@ -66,9 +66,14 @@ body *::selection { background: #f00; color: #fff; }
   margin: 40px 0;
 }
 
-.bio span {
+.bio span:first-child {
   font-size: 14px;
   color: #8e8e8e;
+}
+
+.bio span:nth-child(2) {
+  font-size: 10px;
+  color: #bbb;
 }
 
 .tags button {
