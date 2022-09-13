@@ -19,9 +19,15 @@
   flex: 1;
 }
 
-.photo img {
+/* .photo img {
   width: 86px;
   height: 86px;
+} */
+
+.photo img {
+  width: 150px;
+  height: 150px;
+  margin-right: 0;
 }
 
 .menu {
@@ -120,6 +126,9 @@
   }
   .photo {
     margin-left: 50px;
+  }
+  .photo img {
+    margin-right: 20px;
   }
   .bio {
     padding: 5px 50px;
