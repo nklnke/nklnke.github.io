@@ -107,7 +107,7 @@
    media
   -------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
   .header,
   .works {
     display: flex;
@@ -135,6 +135,7 @@
   }
   .about-me {
     margin-bottom: 0;
+    text-align: center;
   }
   .tags {
     width: 70%;

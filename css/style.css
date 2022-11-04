@@ -19,7 +19,7 @@ body *::selection { background: #f00; color: #fff; }
   border-right: 1px solid #000;
 }
 
-.header { margin-top: 10px; }
+.header { margin-top: 10px; margin-bottom: 0; }
 .about-me { line-height: 1.5; text-align: center; }
 .about-me a { text-decoration: none; }
 
@@ -30,8 +30,8 @@ body *::selection { background: #f00; color: #fff; }
 }
 
 .about-me span:last-child {
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 24px;
+  font-weight: bold;
   color: #0043f7;
 }
 
@@ -45,6 +45,7 @@ body *::selection { background: #f00; color: #fff; }
   line-height: 1.5;
   color: #011627;
   text-decoration: none;
+  white-space: nowrap;
   border-bottom: 3px solid #0043f7;
   padding: 5px;
   transition: .2s ease;
@@ -60,6 +61,7 @@ body *::selection { background: #f00; color: #fff; }
 .menu a:last-child { margin-right: 0; }
 
 .bio {
+  text-align: justify;
   font-size: 22px;
   color: #011627;
   background: rgba(0, 67, 247, .1);
@@ -67,18 +69,18 @@ body *::selection { background: #f00; color: #fff; }
 }
 
 .bio span:first-child {
-  font-size: 18px;
-  color: #727272;
+  font-size: 20px;
+  color: #565656;
 }
 
 .bio span:nth-child(2) {
-  font-size: 15px;
-  color: rgb(153, 153, 153);
+  font-size: 18px;
+  color: rgb(126, 126, 126);
 }
 
 .bio span:nth-child(3) {
-  font-size: 12px;
-  color: rgb(180, 180, 180);
+  font-size: 15px;
+  color: rgb(155, 155, 155);
 }
 
 .tags button {
@@ -92,6 +94,8 @@ body *::selection { background: #f00; color: #fff; }
 }
 
 .tags button:hover { color: #011627; cursor: pointer; }
+.tags button:focus { font-weight: bold; font-style: italic; color: #0043f7; cursor: pointer; }
+
 
 .works-block { transition: .2s; }
 .works-block:last-child { border: 1px dashed #000; }
@@ -180,7 +184,7 @@ body *::selection { background: #f00; color: #fff; }
    mediaz
   -------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
 
   .container {
     border-left: 1px solid #bbb;
